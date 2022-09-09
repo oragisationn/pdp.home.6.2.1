@@ -6,7 +6,6 @@ void main() async {
   await EasyLocalization.ensureInitialized();
 
   runApp(
-
     EasyLocalization(
         supportedLocales: const [
           Locale('en', 'US'),
